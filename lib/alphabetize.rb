@@ -1,6 +1,7 @@
 require 'pry'
 
 def alphabetize(arr)
-  esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
+  esp_alp = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_map = esp_alp.each_char.with_index
   binding.pry
 end
