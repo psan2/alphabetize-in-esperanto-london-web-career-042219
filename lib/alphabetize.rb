@@ -5,6 +5,8 @@ def alphabetize(arr)
   esp_map = esp_alp.each_char.to_a
 
   arr.sort_by do |word|
-    binding.pry
+    word.split("").map do |letter|
+      binding.pry
+    end
   end
 end
