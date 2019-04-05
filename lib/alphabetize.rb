@@ -1,6 +1,4 @@
 def alphabetize(arr)
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
-  arr.sort_by{|word| esperanto_alphabet.index(word[1])}
-  arr
-
+  binding.pry
 end
