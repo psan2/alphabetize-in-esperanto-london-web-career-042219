@@ -6,5 +6,5 @@ def alphabetize(arr)
   # arr.sort_by {|word| esp_map[word[0]]}
 
   ascii = "@-\\"
-  puts arr.tr(esp_alp,ascii)
+  puts arr.join.tr(esp_alp,ascii)
 end
