@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  # code here
+  :esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
+  puts :esperanto_alphabet
 end
