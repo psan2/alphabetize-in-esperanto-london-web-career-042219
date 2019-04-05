@@ -7,5 +7,5 @@ def alphabetize(arr)
 
   ascii = "@-\\"
   arr.sort_by{|string| string.tr(esp_alp,ascii)}
-  arr
+  return arr
 end
