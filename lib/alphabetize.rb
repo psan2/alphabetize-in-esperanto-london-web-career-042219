@@ -7,6 +7,7 @@ def alphabetize(arr)
   arr.sort_by do |word|
     word.split("").map do |letter|
       esp_map.index(letter)
+      puts esp_map.index(letter)
     end
   end
 end
